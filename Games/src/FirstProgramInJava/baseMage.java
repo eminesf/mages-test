@@ -17,6 +17,7 @@ public abstract class baseMage {
 	}
 	
 	public void Atack() {		
+		System.out.println("Ola " + Players.getName());
 		System.out.println(name + " has been atacked, your life: " + life);
 	}
 
